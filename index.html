@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>HTML-CSS-2 Ejercicio 1</title>
+</head>
+<body>
+    <header>
+        <div id="menu">
+        <div class="logo">
+            <img src="./imagenes/issuu-vector-logo.png" alt="Logo Issuu">
+        </div>
+        <div class="acceder">
+            <p>Already a user?</p>
+            <p><a href="#">Sing in</a></p>
+        </div>
+        </div>
+    </header>
+    <div class="content">
+    <div>
+        <h1>Create an Issuu Acount</h1>
+    </div>
+    <div>
+        <button class="btn-google"><img src="./imagenes/logo-google.png" alt="Logo Google"> Sign in whith Google</button>
+        <button class="btn-facebook"><img src="./imagenes/logo-facebook.png" alt="Logo Google"> Continue with Facebook</button>
+        <p>or with email</p>
+        <form action="#" method="post">
+            <p><label for="Email">Email</label></p>
+            <p><input type="email" name="email" placeholder="e.g. john.doe@email.com" required></p>
+            <p><label for="Email">Password</label></p>
+            <p><input type="password" name="password" required></p>
+            <p><input type="checkbox" name="legal" id="legal"  required>I accept the <a href="#">Terms of Service</a> and the <a href="#">Professional Terms of Service</a></p>
+            <button class="btn-enviar" type="submit">Create a account</button>
+        </form>
+    </div> 
+    </div>
+    <footer>
+        <span class="foot-issuu">Issuu Inc.</span><span class="legal">Terms</span><span class="legal">Privacy</span><span class="legal">DMCA</span>
+    </footer>   
+</body>
+</html>

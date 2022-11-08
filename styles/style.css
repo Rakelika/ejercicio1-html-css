@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #4d8cf5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f26f61;
+}
+
+.logo img {
+    width: auto;
+    height: 80px;
+}
+
+#menu {
+    position: relative;
+    height: 100px;
+    border-bottom: 3px solid #dadada;
+}
+
+div.logo {
+    position: absolute;
+    left: 30px;
+}
+
+div.acceder {
+    position: absolute;
+    right: 30px;
+}
+
+.content {
+    margin: 30px;;
+}
+
+.btn-google {
+    background-color: #4d8cf5;
+    border: 1px solid #4d8cf5;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-google img {
+    width: 15px;
+    height: 15px;
+}
+
+.btn-facebook {
+    background-color: #4469b2;
+    border: 1px solid #4469b2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-facebook img {
+    width: 15px;
+    height: 15px;
+}
+
+.btn-enviar {
+    border: 2px dashed #a6a6a6;
+    background: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #a6a6a6;
+    border-radius: 30px;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    border: 2px dashed #f26f61;
+    color: #f26f61;
+}
+
+footer {
+    border-top: 3px solid #dadada;
+    padding: 50px 0px;
+    margin-top: 80px;
+} 
+
+.foot-issuu {
+    margin-left: 30px;
+    margin-right: 150px;
+}
+
+.legal {
+    margin-right: 30px;
+}
