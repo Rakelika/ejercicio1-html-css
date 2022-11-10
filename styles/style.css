@@ -75,6 +75,13 @@ div.acceder {
     cursor: pointer;
 }
 
+input[type="email"], input[type="password"]{
+    width: 400px;
+    padding: 6px;
+}
+
+
+
 .btn-enviar:hover {
     border: 2px dashed #f26f61;
     color: #f26f61;
